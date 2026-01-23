@@ -1,6 +1,10 @@
 # Precifique Fácil
 ## Precificação de produtos 
-Disponível em: https://precifiquefacil.infinityfreeapp.com
-
-
-Projeto usando PHP, HTML, CSS e JavaScript. 
+#### Disponível em:
+https://precifiquefacil.infinityfreeapp.com
+### 🛠 Tecnologias utilizadas
+ PHP
+ HTML
+ CSS
+ JavaScript
+ Bootstrap
