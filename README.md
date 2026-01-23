@@ -49,28 +49,21 @@ O sistema web cálculo de precificação foi desenvolvido para auxiliar empreend
         │ Preenche formulário de cálculo
         ▼
 ┌────────────────────────┐
-│   View (Blade)         │
+│   URL                  │
 │ Formulário de Cálculo  │
 └─────────┬──────────────┘
           │ POST /calcular
           ▼
 ┌────────────────────────┐
-│   CalculoController    │
+│   index.php            │
 │ - Validação dos dados  │
 │ - Regras de negócio    │
 │ - Cálculo do preço     │
-└─────────┬──────────────┘
-          │
-          ▼
-┌────────────────────────┐
-│ Camada de Lógica       │
+| ---------------------  │
+│  Camada de Lógica      │
 │ (Fórmulas de cálculo)  │
-└─────────┬──────────────┘
-          │
-          ▼
-┌────────────────────────┐
-│ Retorno para a View    │
-│ Resultado do cálculo   │
+│ - Retorno para a View  │
+│ - Resultado do cálculo │
 └────────────────────────┘
-```md
+
 
